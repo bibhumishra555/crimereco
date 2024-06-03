@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYNTAX_SAVVY_PROJECT_eng</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ribbon">
+        <a href="#"><div class="icon home-icon"></div></a>
+        <div class="font-size-controls">
+            <button class="theme-button font-size-decrement">A-</button>
+            <button class="theme-button font-size-default">A</button>
+            <button class="theme-button font-size-increment">A+</button>
+            <span class="font-size"></span>
+        </div>
+        <div class="theme-selection">
+            <button class="theme-button neon-theme"> A </button>
+            <button class="theme-button light-theme"> A </button>
+        </div>
+        <div class="language-selection">
+            <button class="language-button">
+                English
+                <div class="icon drop-down-icon"></div>
+            </button>
+            <div class="language-dropdown">
+                <ul>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">हिंदी</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="ribbon-2">
+        <div class="left-content">
+            <img src="file:///C:/Users/DELL/Desktop/bipro/imz/ind.png" alt="India Photo">
+            <div class="vertical-line"></div>
+            <div class="text">
+                <h3>Government of India</h3>
+                <h1>Home Ministry ( Crime Branch )</h1>
+            </div>
+        </div>
+        <div class="right-content">
+            <img src="file:///C:/Users/DELL/Desktop/bipro/imz/Swachh_Bharat_Mission_Logo.svg.png" alt="Swachh_Bharat_Mission_Logo">
+        </div>
+    </div>
+    <div class="navbar">
+        <a href="#About us">About us</a>
+        <a href="#Resister">Resister</a>
+        <a href="#Report/suggestion">Report/suggestion</a>
+        <a href="#Media">Media</a>
+        <a href="#contact us">contact us</a>
+        <a href="#log-in">log-in</a>
+    </div>
+    <div class="box" id="drop-area">
+        <span class="plus">+</span>
+        <p>Drag & Drop Photo</p>
+        <input type="file" id="fileInput" multiple>
+    </div>
+    <form id="uploadForm" action="/upload" method="post" enctype="multipart/form-data">
+        <input type="hidden" id="fileName" name="fileName">
+        <button type="submit" id="submitBtn">Submit</button>
+    </form>
+    <div class="scrollbar">
+        <div class="content">
+        </div>
+    </div>
+    <div class="press-release-box">
+        <h2>Press Release</h2>
+        <div class="news-slider">
+            <div class="news-headline">News headline 1</div>
+            <div class="news-headline">News headline 2</div>
+            <div class="news-headline">News headline 3</div>
+        </div>
+    </div>
+    <div class="slider-container">
+        <div class="slider">
+            <img src="file:///C:/Users/DELL/Desktop/bipro/imz/slide.png" alt="Photo 1">
+            <img src="file:///C:/Users/DELL/Desktop/bipro/imz/slide.png" alt="Photo 2">
+            <img src="file:///C:/Users/DELL/Desktop/bipro/imz/slide.png" alt="Photo 3">
+            <img src="file:///C:/Users/DELL/Desktop/bipro/imz/slide.png" alt="Photo 4">
+            <img src="file:///C:/Users/DELL/Desktop/bipro/imz/slide.png" alt="Photo 5">
+        </div>
+    </div>
+    <div class="photo_container">
+        <a href="https://www.pmindia.gov.in/en/"><img src="file:///C:/Users/DELL/Desktop/bipro/imz/PMO_India_Logo.svg.png" alt="PMO"></a>
+        <a href="https://www.makeinindia.com/home"><img src="file:///C:/Users/DELL/Desktop/bipro/imz/MakeInIndia.png" alt="Make in India"></a>
+        <a href="https://www.digitalindia.gov.in/"><img src="file:///C:/Users/DELL/Desktop/bipro/imz/Digitalindia.png" alt="Digital India"></a>
+        <a href="https://www.mygov.in/"><img src="file:///C:/Users/DELL/Desktop/bipro/imz/Mygov.svg.png" alt="my gov"></a>
+        <a href="https://www.nic.in/"><img src="file:///C:/Users/DELL/Desktop/bipro/imz/NIC_logo.svg.png" alt="NIC"></a>
+    </div>
+    <div class="bottom-ribbon">
+        <p>By Syntax💞Savvy</p>
+        <p> All Rights Reserved © 2024</p>
+        <p>Follow me on <a href="https://www.instagram.com/syntax_savvy_/">Instagram</a> | <a href="https://www.facebook.com/bibhu.mishra.2002">Facebook</a> | <a href="https://github.com/bibhumishra555">GitHub</a> | <a href="https://www.linkedin.com/in/bibhu-mishra--/">LinkedIn</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
